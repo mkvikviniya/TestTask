@@ -6,9 +6,12 @@
 //
 
 import SwiftUI
+import RealmSwift
 
 @main
-struct TestTaskApp: App {
+struct TestTaskApp: SwiftUI.App {
+  //  let realm = try! Realm()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
